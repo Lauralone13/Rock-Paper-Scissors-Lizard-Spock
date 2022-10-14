@@ -1,0 +1,35 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/rock-scissors-paper-lizard-spock
+
+game:
+  moves:
+    - name: rock
+      number: 1
+      defeats: rock crushes scissors, rock crushes lizard
+    - name: scissors
+      number: 2
+      defeats: scissors cuts paper, scissors decapitates lizard
+    - name: paper
+      number: 3
+      defeats: paper covers rock, paper disproves spock
+    - name: lizard
+      number: 4
+      defeats: lizard eats paper, lizard poisons spock
+    - name: spock
+      number: 5
+      defeats: spock vaporizes rock, spock smashes scissors
+
+#player:
+#  default:
+#    - name: Player 1
+#      type: Human
+#      lifePoints: 3
+#    - name: Player 2
+#      type: Computer
+#      lifePoints: 3
+#roundCounter:
+#  start: 1
+#  end: 5
+#should put something else up there under "game." too
